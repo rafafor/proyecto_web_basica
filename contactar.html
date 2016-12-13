@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Mi web de cervezas</title>
-	<link rel="stylesheet" href="css/style.css">
-
+  <meta charset="UTF-8">
+  <title>Mi web de cervezas</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-	<body>
-		<header>
-			
 
-			<img src="img/logo.png" alt="" class="logo">
-			<h1 class="title">Mis cervezas</h1>
-			<p class="subtitle">Aficiones y locuras de un amante de la cerveza</p>
-			<nav>
-				<ul class="menu">
-					<li class="menuitem"><a href="" class="menulink"></a></li>
-					<li class="menuitem"><a href="" class="menulink"></a></li>
-					<li class="menuitem"><a href="" class="menulink"></a></li>
-				</ul>
-			</nav>
+<body>
+  <header>
+    <img src="img/logo.png" alt="" class="logo">
+    <h1 class="title">Mis cervezas</h1>
+    <p class="subtitle">Aficiones y locuras de un amante de la cerveza</p>
+    <nav>
+      <ul class="menu">
+        <li class="menuitem">
+          <a href="" class="menulink"></a>
+        </li>
+        <li class="menuitem">
+          <a href="" class="menulink"></a>
+        </li>
+        <li class="menuitem">
+          <a href="" class="menulink"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <div>
+      <h1 class="bannerTitle"></h1>
+      <div class="bannerBody">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus porro laudantium possimus aspernatur nihil adipisci. Illo commodi odio, dignissimos iste consectetur molestias cupiditate vel ex ad enim veritatis non eligendi.</p>
+        <p>Temporibus quis, fugiat pariatur aliquid ea facilis nesciunt. Velit nulla enim molestias esse, nobis debitis ipsa hic, eaque quo reiciendis. Totam at iusto quibusdam aperiam odio, sunt quo unde distinctio.</p>
+      </div>
+    </div>
+    <div>
+      <h1 class="bannerTitle"></h1>
+      <div class="bannerBody">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quaerat libero provident qui, suscipit quod maxime molestiae cupiditate a repellat voluptatibus, unde voluptatem eligendi architecto aliquid esse! Nihil, suscipit, dicta.</p>
+        <p>Deserunt dolore quia nostrum, temporibus incidunt praesentium officiis aperiam ad ullam distinctio consectetur eos, ratione et? Odio esse, dignissimos incidunt recusandae pariatur dolores, minus eius veniam et iure. Non, voluptas.</p>
+      </div>
+    </div>
+  </aside>
+  <main>
+    <h1>Contactar</h1>
+    <p>No me interesa conocerte. Si sabes de alguna cerveza que merezca la pena probar, escribe su nombre y una descripción</p>
+    <p>¡Quizá me anime y la ponga en la lista!</p>
+    <form action="contactar.php">
+      <div>
+        <label for="cerveza">Nombre</label>
+        <input type="text" name="cerveza" id="cerveza">
+      </div>
+      <div>
+        <label>Descripción</label>
+        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </main>
+  <footer>
+    <p class="copyright">Sitio web realizado por un amante de la cerveza</p>
+  </footer>
+</body>
 
-		</header>
-		<aside>
-			
-			<div>
-				<h1 class="bannerTitle"></h1>
-				<div class="bannerBody">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus porro laudantium possimus aspernatur nihil adipisci. Illo commodi odio, dignissimos iste consectetur molestias cupiditate vel ex ad enim veritatis non eligendi.</p>
-					<p>Temporibus quis, fugiat pariatur aliquid ea facilis nesciunt. Velit nulla enim molestias esse, nobis debitis ipsa hic, eaque quo reiciendis. Totam at iusto quibusdam aperiam odio, sunt quo unde distinctio.</p>
-				</div>
-			</div>
-			<div>
-				<h1 class="bannerTitle"></h1>
-				<div class="bannerBody">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quaerat libero provident qui, suscipit quod maxime molestiae cupiditate a repellat voluptatibus, unde voluptatem eligendi architecto aliquid esse! Nihil, suscipit, dicta.</p>
-					<p>Deserunt dolore quia nostrum, temporibus incidunt praesentium officiis aperiam ad ullam distinctio consectetur eos, ratione et? Odio esse, dignissimos incidunt recusandae pariatur dolores, minus eius veniam et iure. Non, voluptas.</p>
-				</div>
-			</div>
-
-		</aside>
-		<main></main>
-		<footer>
-			
-			<p class="copyright">Sitio web realizado por un amante de la cerveza</p>
-
-		</footer>
-	</body>
 </html>
